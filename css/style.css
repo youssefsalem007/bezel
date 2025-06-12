@@ -1,0 +1,203 @@
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body::selection{
+    background-color: black;
+    color: white;
+}
+.maincolor{
+    color: #00BED7;
+}
+.flarge{
+    font-size: 5rem;
+}
+.fmed{
+    font-size: 3.75rem;
+}
+.btnmain{
+    background-color: #00BED7;
+}
+.btnmain:hover{
+   background-color: #41ddf1;
+    transform:translateY(-1px);
+}
+.btnsec:hover{
+     transform:translateY(-1px);
+}
+.btnab:hover{
+    background-color: black;
+    color: white;
+     transform:translateY(-.5px);
+}
+.prevar{
+    position: absolute;
+    left: -200px; 
+}
+.nxtar{
+       position: absolute;
+    left: 100px;
+    top: 60px;
+}
+.ar{
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+.anime::after {
+    color: #00BED7;
+    content: "|";
+    animation: infinite anime 4.5s;
+}
+.btnlayer{
+    background-color: #f8f8f8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    transition: all .5s;
+ 
+}
+#fbtn:hover .btnlayer{
+    background-color: rgb(248, 248, 248,);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+      
+ 
+}
+#sbtn:hover .btnlayer{
+    background-color: rgb(248, 248, 248,);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+      
+ 
+}
+@keyframes anime {
+    0%{
+        content: "a|";
+    }
+    2%{
+        content: "ap|" ;
+    }
+    5%{
+        content: "app|" ;
+    }
+    10%{
+        content: "apps|" ;
+    }
+    40%{
+        content: "w|";
+    }
+     42%{
+        content: "we|";
+    }
+     44%{
+        content: "web|";
+    }
+     46%{
+        content: "webs|";
+    }
+     48%{
+        content: "websi|";
+    }
+     50%{
+        content: "websit|";
+    }
+     52%{
+        content: "website|";
+    }
+    75%{
+        content: "s|";
+    }
+    77%{
+        content: "so|";
+    }
+    80%{
+        content: "sof|";
+    }
+    83%{
+        content: "soft|";
+    }
+    85%{
+        content: "softw|";
+    }
+    89%{
+        content: "softwa|";
+    }
+    91%{
+        content: "softwar|";
+    }
+    95%{
+        content: "software|";
+    }
+    
+    
+}
+.cover{
+    position: relative;
+    top: 65px;
+   
+}
+.team-layer{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 195, 218, 0.9);
+    overflow: hidden;
+    transition: all 1.5s;
+}
+.inner-team:hover .team-layer{
+    top: 0;
+}
+.team-cap{
+    position: relative;
+    top: 66%;
+}
+.bg-ser{
+    background-color: #626262;
+}
+.cover-ser{
+      position: relative;
+    top: 65px;
+    right: 100px;
+}
+.btnmain-card{
+        background-color: #00BED7;
+}
+.btnmain-card:hover{
+       transform:translateY(-1px);
+        background-color: #2ac8dd;
+       
+}
+.fsmall{
+    font-size: .75rem;
+}
+.bg-grey{
+    background-color: #F7F7F7;
+}
+.carousel-item figure{
+    width: 6.25rem;
+    position: relative;
+    top: -5.625rem;
+}
+#carouselExampleCaptions .carousel-indicators button{
+    width: .625rem;
+    height: .625rem;
+    border-radius: 50%;
+}
+#carouselExampleCaptions .carousel-indicators button:hover{
+    background-color: #00BED7;
+ 
+}
+.area{
+    resize: none;
+}
